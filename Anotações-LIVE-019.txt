@@ -1,0 +1,53 @@
+LIVE #019 - Toolbar, Navigation Drawer e BottomNavigationView com Navigation Component (A forma correta)
+
+Elementos de layout compatíveis com Navigation Componente mais utilizados:
+
+ - Toolbar (Barra no topo da tela) Ex: WhatsApp
+
+ - Navigation Drawer ("Gaveta" lateral de navegação) Ex: Discord
+
+ - BottomNavigationView (Barra no rodapé da tela) Ex: Instagram
+
+Bora para o campo de batalha!
+
+Base do projeto:
+
+	- Ativar ViewBinding no projeto
+
+	- Criar 3 destinos (fragments) no app com viewBinding
+
+	- Criar navigation graph
+
+	- Adicionar o NavHost a activity host
+
+Toolbar com Navigation Component:
+
+	- Adicione a Toolbar na tela do NavHost
+
+	- Configurando a Toolbar com Navigation Component
+
+	- Configurando acoes no NavGraph
+
+	- Configurando o nome de exibição no NavGraph
+
+Navigation Drawer com Navigation Component:
+
+	- Criando nova activity e trocando a activity launcher
+
+	- Configurando o Navigation Drawer com Navigation Component
+
+	- Criando menu e linkando itens do menu com itens do Nav Graph
+
+	- Alterando menu para conter os icones
+
+	- Adicionando Toolbar a nossa Activity de Navigation Drawer
+
+	- Configurando a Toolbar para trabalhar também com o Navigation Drawer
+
+BottomNavigationView com Navigation Component:
+
+	 - Criando nova activity e trocando a activity launcher
+
+	 - Configurando BottomNavigationView com Navigation Component
+
+Para trocar entre os exemplos, basta entrar no AndroidManifest.xml e trocar a activity laucher para o exemplo que deseja.

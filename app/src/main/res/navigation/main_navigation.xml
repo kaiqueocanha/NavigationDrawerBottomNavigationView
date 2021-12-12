@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ocanha.navigationdrawerbottomnavigationview.fragments.HomeFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ocanha.navigationdrawerbottomnavigationview.fragments.ProfileFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/profile_fragment"/>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.ocanha.navigationdrawerbottomnavigationview.fragments.NotificationsFragment"
+        android:label="@string/notificacoes"
+        tools:layout="@layout/notifications_fragment"/>
+
+</navigation>
